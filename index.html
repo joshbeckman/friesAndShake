@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+*{margin:0;padding:0;}
+body {
+	font:13.34px helvetica,arial,freesans,clean,sans-serif;
+	color:black;
+	line-height:1.4em;
+	background-color: #F8F8F8;
+	padding: 0.7em;
+}
+p {
+	margin:1em 0;
+	line-height:1.5em;
+}
+table {
+	font-size:inherit;
+	font:100%;
+	margin:1em;
+}
+table th{border-bottom:1px solid #bbb;padding:.2em 1em;}
+table td{border-bottom:1px solid #ddd;padding:.2em 1em;}
+input[type=text],input[type=password],input[type=image],textarea{font:99% helvetica,arial,freesans,sans-serif;}
+select,option{padding:0 .25em;}
+optgroup{margin-top:.5em;}
+pre,code{font:12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;}
+pre {
+	margin:1em 0;
+	font-size:12px;
+	background-color:#eee;
+	border:1px solid #ddd;
+	padding:5px;
+	line-height:1.5em;
+	color:#444;
+	overflow:auto;
+	-webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;border-radius:3px;
+}
+pre code {
+	padding:0;
+	font-size:12px;
+	background-color:#eee;
+	border:none;
+}
+code {
+	font-size:12px;
+	background-color:#f8f8ff;
+	color:#444;
+	padding:0 .2em;
+	border:1px solid #dedede;
+}
+img{border:0;max-width:100%;}
+abbr{border-bottom:none;}
+a{color:#5e5bd6;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a code,a:link code,a:visited code{color:#4183c4;}
+h2,h3{margin:1em 0;}
+h1,h2,h3,h4,h5,h6{border:0;}
+h1{font-size:170%;border-top:4px solid #aaa;padding-top:.5em;margin:2em 0;}
+h1:first-child{margin-top:0;padding-top:.25em;border-top:none;}
+h2{font-size:150%;margin-top:1.5em;border-top:4px solid #e0e0e0;padding-top:.5em;}
+h3{margin-top:1em;}
+hr{border:1px solid #ddd;}
+ul{margin:1em 0 1em 2em;}
+ol{margin:1em 0 1em 2em;}
+ul li,ol li{margin-top:.5em;margin-bottom:.5em;}
+ul ul,ul ol,ol ol,ol ul{margin-top:0;margin-bottom:0;}
+blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
+dt{font-weight:bold;margin-left:1em;}
+dd{margin-left:2em;margin-bottom:1em;}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 600px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+<title>Fries & A Shake</title>
+
+</head>
+<body>
+<h1>Fries & A Shake</h1>
+
+<blockquote><p>Would you like fries and a shake with that hamburger?</p></blockquote>
+
+<div style="text-align:center;">
+<a href="hamburger/"><img src="hamburger/hamburger.png" width="100" alt="Hamburger by Edward Boatman from The Noun Project" title="Hamburger by Edward Boatman from The Noun Project"/></a><a href="fries/"><img src="fries/fries.png" width="100" alt="French Fries by Azure Saw from The Noun Project" title="French Fries by Azure Saw from The Noun Project"/></a><a href="shake/"><img src="shake/shake.png" width="100" alt="Milkshake by Diego Naive from The Noun Project" title="Milkshake by Diego Naive from The Noun Project"/></a>
+</div>
+
+
+<p>Yeah, so it is now exceedingly common for sites to use a 'hamburger button' to hide and subsequently reveal a menu.</p>
+
+<p>I would like to point out that there are, at minimum, a couple alternative interaction paradigms to get the job done. A great implementation would probably include a combination of the standard touch/click and the methods below.</p>
+
+<p><a href="hamburger/">Basic hamburger example</a></p>
+
+<h2><a href="fries/">Fries</a></h2>
+
+<blockquote><p>Touch &amp; drag horizontally to open the drawer, touch &amp; drag the opposite direction to close it.</p></blockquote>
+
+<ul>
+<li>Supported on touch-enabled devices only.</li>
+<li>Able to start nice drag-hinting like in the iOS 7 camera.</li>
+<li>Able to register the event wherever you like.</li>
+</ul>
+
+
+<h2><a href="shake/">Shake</a></h2>
+
+<blockquote><p>Shake your device horizontally to open the drawer, shake it back to close it up.</p></blockquote>
+
+<ul>
+<li>Supported on acceleromter-equipped devices only.</li>
+<li>Significantly reduces thumb injuries induced by hamburger buttons.</li>
+<li>Shake it like a polaroid picture.</li>
+</ul>
+
+
+<hr />
+
+<p>Do you have other equally fast-food-named ideas? <a href="http://github.com/jbckmn/friesandshake">Fork this on Github</a></p>
+<br>
+<p style="text-align:center;font-size:0.9em;">Made with love from <a href="http://www.bckmn.com">jbckmn</a></p>
+</body>
+</html>
