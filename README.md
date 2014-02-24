@@ -1,4 +1,4 @@
-friesAndShake
+Fries & A Shake
 =============
 
 > Would you like fries and a shake with that hamburger?
@@ -9,18 +9,20 @@ friesAndShake
 
 Yeah, so it is now exceedingly common for sites to use a 'hamburger button' to hide and subsequently reveal a menu.
 
-I would like to point out that there are, at minimum, a couple alternative interaction paradigms to get the job done. (_Hamburger example_)
+I would like to point out that there are, at minimum, a couple alternative interaction paradigms to get the job done. A great implementation would probably include a combination of the standard touch/click and the methods below.
 
-### Fries
+[Basic hamburger example](http://jbckmn.github.io/friesAndShake/hamburger/)
+
+### [Fries](http://jbckmn.github.io/friesAndShake/fries/)
 
 > Touch & drag horizontally to open the drawer, touch & drag the opposite direction to close it.
 
 - Supported on touch-enabled devices only.
 - Able to start nice drag-hinting like in the iOS 7 camera.
-- Able to register the event wherever you like (entire document in example)
+- Able to register the event wherever you like.
 
 
-### Shake
+### [Shake](http://jbckmn.github.io/friesAndShake/shake/)
 
 > Shake your device horizontally to open the drawer, shake it back to close it up.
 
